@@ -1,7 +1,7 @@
 # My Python Learning Journey
 
 > **Who I am:** I'm a DevOps Engineer upskilling into Python — for automation, AI/MLOps, and LLMOps.  
-> **Why Python:** Every tool I want to master — Kubernetes clients, MLflow, LangChain, FastAPI, boto3 — is Python-first.  
+> **Why Python:** Every tool I work with — Azure SDK, Kubernetes clients, MLflow, LangChain, FastAPI — is Python-first.  
 > **This repo:** My personal class notes, written in my own words, with hands-on exercises themed around DevOps and AI/MLOps.
 
 ---
@@ -38,7 +38,7 @@ Each notebook has a dedicated practice section at the bottom with exercises that
 - **Days 1–3** — Output formatting for CI/CD logs, type-casting monitoring API data, system health checks with operators
 - **Days 4–5** — Deployment gates with conditional logic, server CPU health monitoring loops, log file analyzers
 - **Days 6–7** — Kubernetes config as nested dicts, config merge patterns, model experiment trackers, log formatter functions with `*args`
-- **Days 8–10** — OOP: `Server` and `MLExperiment` classes, cloud resource hierarchies (`CloudResource → EC2Instance / S3Bucket`), abstract cloud provider interfaces (swap AWS/GCP without changing pipeline logic)
+- **Days 8–10** — OOP: `Server` and `MLExperiment` classes, Azure resource hierarchies (`CloudResource → AzureVM / BlobContainer`), abstract cloud provider interfaces (swap `AzureProvider`/`OnPremProvider` without changing pipeline logic)
 
 ---
 
@@ -46,7 +46,7 @@ Each notebook has a dedicated practice section at the bottom with exercises that
 
 ```
 # DevOps automation
-pip install requests boto3 paramiko pyyaml kubernetes fabric
+pip install requests azure-identity azure-mgmt-compute azure-storage-blob paramiko pyyaml kubernetes
 
 # AI / MLOps
 pip install pandas numpy scikit-learn mlflow langchain openai

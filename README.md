@@ -61,14 +61,57 @@ pip install pandas numpy scikit-learn mlflow langchain openai
 git clone <repo-url>
 cd python-learning
 
-# Create a virtual environment (recommended)
-python -m venv .venv
-.venv\Scripts\activate       # Windows
-source .venv/bin/activate    # Linux/Mac
+# Since I use Anaconda (recommended for beginners)
+# 1. Open Anaconda Prompt
+# 2. Go to the project folder
+cd python-learning
 
-# Open in VS Code with Jupyter extension
-code .
+# 3. Start Jupyter Notebook
+jupyter notebook
+
+# Optional but better: create a separate conda environment for this repo
+conda create -n python-learning python=3.11
+conda activate python-learning
+jupyter notebook
 ```
+
+### What is `venv`?
+
+`venv` means **virtual environment**.
+
+Think of it like a small isolated Python workspace just for one project.
+
+Why this matters:
+
+- Without a virtual environment, every package I install goes into one common Python setup on my machine.
+- After some time, projects can start conflicting with each other because one project may need one package version and another project may need a different version.
+- A virtual environment avoids that problem by keeping project dependencies separate.
+
+Simple example:
+
+- Project A may need `pandas==1.5`
+- Project B may need `pandas==2.2`
+- If both use the same global Python, this becomes messy.
+- If each project has its own environment, both can work safely.
+
+In my case, since I use **Anaconda**, I will mostly use a **conda environment** instead of `python -m venv`.
+
+So for me, the idea is the same:
+
+- `venv` = Python's built-in way to isolate packages
+- `conda env` = Anaconda's way to isolate packages
+
+Both solve the same problem: keeping each project clean and independent.
+
+### Recommended for my workflow
+
+Since I am learning in Jupyter Notebook and already using Anaconda:
+
+- Use **Anaconda Prompt**
+- Create one conda environment for this repo
+- Open Jupyter Notebook from that environment
+
+That is simpler and more practical for my current setup than learning `venv` first.
 
 ---
 

@@ -27,7 +27,8 @@ Every notebook ends with a **DevOps / AI-MLOps Practice** section with exercises
 | [Day7.ipynb](Day7.ipynb) | **Functions** — `def`, parameters, default args, `*args`, `**kwargs`, return values, `None` return, lambda functions, scope |
 | [Day8.ipynb](Day8.ipynb) | **OOP — Intro** — Classes, objects, `__init__`, `self`, instance attributes, instance methods, creating and using objects |
 | [Day9.ipynb](Day9.ipynb) | **OOP — Encapsulation & Inheritance** — Public/private attributes, getters/setters, single, multilevel, hierarchical, multiple inheritance, `super()` |
-| [Day10.ipynb](Day10.ipynb) | **OOP — Polymorphism & Abstraction** — Method overriding, duck typing, `ABC`, `@abstractmethod`, abstract base classes, real-world interface patterns |
+| [Day10.ipynb](Day10.ipynb) | **OOP — Polymorphism** — Method overriding, polymorphism with loops, method overloading (not supported in Python), deployment strategy patterns |
+| [Day11.ipynb](Day11.ipynb) | **OOP — Abstraction** — `ABC`, `@abstractmethod`, abstract base classes, abstract vs concrete methods, cannot-instantiate rule, multiple abstract methods, abstraction vs encapsulation, real-world interface patterns |
 
 ---
 
@@ -38,7 +39,8 @@ Each notebook has a dedicated practice section at the bottom with exercises that
 - **Days 1–3** — Output formatting for CI/CD logs, type-casting monitoring API data, system health checks with operators
 - **Days 4–5** — Deployment gates with conditional logic, server CPU health monitoring loops, log file analyzers
 - **Days 6–7** — Kubernetes config as nested dicts, config merge patterns, model experiment trackers, log formatter functions with `*args`
-- **Days 8–10** — OOP: `Server` and `MLExperiment` classes, Azure resource hierarchies (`CloudResource → AzureVM / BlobContainer`), abstract cloud provider interfaces (swap `AzureProvider`/`OnPremProvider` without changing pipeline logic)
+- **Days 8–9** — OOP: `Server` and `MLExperiment` classes, Azure resource hierarchies (`CloudResource → AzureVM / BlobContainer`), encapsulation with private attributes and getters/setters
+- **Days 10–11** — OOP: Polymorphism with deployment strategies (Rolling/BlueGreen/Canary), abstract cloud provider interfaces (swap `AzureProvider`/`OnPremProvider` without changing pipeline logic), CI/CD pipeline abstraction
 
 ---
 

@@ -30,6 +30,8 @@ Every notebook ends with a **DevOps / AI-MLOps Practice** section with exercises
 | [Day10.ipynb](Day10.ipynb) | **OOP — Polymorphism** — Method overriding, polymorphism with loops, method overloading (not supported in Python), deployment strategy patterns |
 | [Day11.ipynb](Day11.ipynb) | **OOP — Abstraction** — `ABC`, `@abstractmethod`, abstract base classes, abstract vs concrete methods, cannot-instantiate rule, multiple abstract methods, abstraction vs encapsulation, real-world interface patterns |
 | [Day12.ipynb](Day12.ipynb) | **Practice Questions — Basics & OOP Revision** — Variables, data types, operators, conditionals, loops, strings, lists/tuples/dicts/sets, functions (`*args`, `**kwargs`, lambda), OOP (encapsulation, inheritance, polymorphism, abstraction), tricky interview-style questions (reference vs copy, class vs instance attributes, `is` vs `==`) |
+| [Day13.ipynb](Day13.ipynb) | **OOP Hands-On Practice Part 1** — Classes with user input & `self`, inheritance with `super()` (extending vs replacing), abstract classes (`Device`, `Shape`), multiple inheritance with MRO (`Teacher`/`Mentor`/`Guide`), abstract class with `__init__` (`Ride` fare calculator) |
+| [Day14.ipynb](Day14.ipynb) | **OOP Hands-On Practice Part 2** — Ride Booking System (abstraction with method params), hierarchical inheritance (`Teacher`), Student Result System (conditional logic in classes), polymorphism with loops (`Animal`), Food Delivery App (multiple inheritance with `__init__`), Online Ordering (abstraction), encapsulation getter/setter, factorial & palindrome functions, lambda & `*args`, method overloading (not supported in Python) |
 
 ---
 
@@ -43,6 +45,8 @@ Each notebook has a dedicated practice section at the bottom with exercises that
 - **Days 8–9** — OOP: `Server` and `MLExperiment` classes, Azure resource hierarchies (`CloudResource → AzureVM / BlobContainer`), encapsulation with private attributes and getters/setters
 - **Days 10–11** — OOP: Polymorphism with deployment strategies (Rolling/BlueGreen/Canary), abstract cloud provider interfaces (swap `AzureProvider`/`OnPremProvider` without changing pipeline logic), CI/CD pipeline abstraction
 - **Day 12** — Revision: Server inventory manager (classes + loops + conditionals), Kubernetes/Docker config validators (abstraction + encapsulation), ML experiment tracker combining all 4 OOP pillars
+- **Day 13** — OOP Hands-On: Monitoring alert system (abstraction), container runtime hierarchy (inheritance + super()), cloud resource manager (multiple inheritance with Taggable + Billable)
+- **Day 14** — OOP Hands-On: Deployment order system (K8s vs App Service abstraction), ML experiment grading (classes with conditional logic), cloud compute + networking (multiple inheritance), fare calculator with `*args`
 
 ---
 

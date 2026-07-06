@@ -44,6 +44,30 @@ Every notebook ends with a **DevOps / AI-MLOps Practice** section with exercises
 | [Day24.ipynb](Day24.ipynb) | **Pandas — Part 1 (Series & DataFrame Basics)** — Series (labelled 1D array), DataFrame creation (from dicts, lists, NumPy), `head`/`tail`/`info`/`describe`, selecting columns (single & multiple), `loc` vs `iloc`, filtering with conditions (`&`, `|`, `isin`, `str.contains`, `between`), adding/renaming/dropping columns, `read_csv`/`to_csv`, `sort_values` |
 | [Day25.ipynb](Day25.ipynb) | **Pandas — Part 2 (GroupBy, Merge & Missing Data)** — `groupby` (split-apply-combine), `agg` (multiple functions), `apply` (custom row/column transforms), `value_counts`, `merge` (inner/left/right/outer joins), `concat`, missing data (`isna`, `fillna`, `dropna`), `nunique` |
 | [Day26.ipynb](Day26.ipynb) | **Matplotlib — Data Visualisation** — `plt.plot` (line), `plt.bar`/`barh`, `plt.scatter`, `plt.hist`, `plt.pie`, subplots (`fig, axes = plt.subplots`), customisation (colours, markers, grid, labels, legends, `figsize`), `axhline`/`axvline`, pandas built-in `.plot()`, `plt.savefig` |
+| [Day27.ipynb](Day27.ipynb) | **Scikit-learn — Part 1 (ML Fundamentals & Regression)** — What is ML, supervised vs unsupervised, sklearn workflow (`fit` → `predict` → `evaluate`), train/test split, Linear Regression, evaluation metrics (MAE, MSE, R²), `StandardScaler` |
+| [Day28.ipynb](Day28.ipynb) | **Scikit-learn — Part 2 (Classification & Pipelines)** — Classification vs regression, Logistic Regression, Random Forest, confusion matrix, accuracy/precision/recall/F1, `Pipeline`, `cross_val_score` |
+| [Day29.ipynb](Day29.ipynb) | **XGBoost & Optuna — Hyperparameter Tuning** — XGBoost (eXtreme Gradient Boosting), hyperparameters vs parameters, `GridSearchCV`, Optuna (smart search with `create_study`, `optimize`), XGBoost + Optuna pipeline |
+| [Day30.ipynb](Day30.ipynb) | **Joblib — Model Serialization** — Why save models, `pickle` (Python built-in), `joblib` (better for ML), saving/loading sklearn pipelines, saving individual components, model metadata (version, metrics, features) |
+| [Day31.ipynb](Day31.ipynb) | **PyYAML — Working with YAML Files** — YAML syntax basics, `yaml.safe_load()` (read), `yaml.dump()` (write), nested structures, multi-document YAML (`safe_load_all`), YAML ↔ JSON conversion, safe loading security |
+| [Day32.ipynb](Day32.ipynb) | **MLflow — Experiment Tracking & Model Registry** — `mlflow.log_param()`, `mlflow.log_metric()`, `mlflow.log_artifact()`, `mlflow.sklearn.autolog()`, `search_runs()`, `log_model()`/`load_model()`, Model Registry (register, version, stages), MLflow UI |
+| [Day33.ipynb](Day33.ipynb) | **DVC — Data & Model Versioning** — `dvc init`, `dvc add`, `.dvc` pointer files, remote storage (Azure Blob, S3), `dvc push`/`dvc pull`, switching data versions, DVC Pipelines (`dvc.yaml`, `params.yaml`, `dvc repro`), DVC vs MLflow comparison |
+| [Day34.ipynb](Day34.ipynb) | **FastAPI — API for Model Serving** — `FastAPI()`, `@app.get`/`@app.post`, path & query parameters, Pydantic `BaseModel` validation, serving ML models via `/predict`, batch predictions, `HTTPException`, Kubernetes health probes (`/healthz`, `/readyz`), Swagger UI auto-docs |
+| [Day35.ipynb](Day35.ipynb) | **Pytest — Testing** — `test_` naming, `assert`, `pytest.raises`, fixtures (`@pytest.fixture`), `@pytest.mark.parametrize`, testing ML code (data shapes, accuracy thresholds, model save/load), mocking (`unittest.mock.patch`), pytest CLI commands |
+| [Day36.ipynb](Day36.ipynb) | **Type Hinting & Pydantic** — `typing` module (`List`, `Dict`, `Optional`), dynamic vs static typing, Pydantic `BaseModel`, validation with `Field`, regex constraints, config management with `BaseSettings` |
+| [Day37.ipynb](Day37.ipynb) | **Asyncio & Concurrency** — Synchronous vs Asynchronous (I/O vs CPU bound), `async def`, `await`, `asyncio.sleep`, concurrent execution with `asyncio.gather`, async HTTP requests with `httpx` |
+| [Day38.ipynb](Day38.ipynb) | **Production Logging** — The `logging` module, log levels (DEBUG to CRITICAL), `StreamHandler`, `FileHandler`, `RotatingFileHandler`, JSON structured logging (`python-json-logger`) |
+| [Day39.ipynb](Day39.ipynb) | **Building CLI Tools (Typer)** — Why CLIs matter, `typer.run`, Arguments vs Options (defaults), subcommands with `@app.command()`, interactive prompts (`typer.confirm`), colored output (`typer.secho`) |
+| [Day40.ipynb](Day40.ipynb) | **Python Containerization (Docker)** — Slim vs Alpine images, layer caching (`COPY requirements.txt` first), multi-stage builds for ML C-extensions, running as non-root user, `gunicorn` + `uvicorn` production servers |
+| [Day41.ipynb](Day41.ipynb) | **Cloud SDKs & Automation** — Using Python instead of bash/Terraform for day-2 ops, `DefaultAzureCredential`, `azure-mgmt-compute`, listing VMs, async operations (`begin_deallocate`), `boto3` for AWS equivalent |
+| [Day42.ipynb](Day42.ipynb) | **Workflow Orchestration** — What is a DAG?, Apache Airflow (`PythonOperator`, `BashOperator`, bitshift `>>` dependencies), cron alternative, Prefect (`@flow`, `@task` decorators), pipeline retry logic |
+| [Day43.ipynb](Day43.ipynb) | **AIOps: Time-Series Forecasting** — AI for IT Operations, `prophet`, handling seasonality, `ds` and `y` dataframes, predicting future CPU load for proactive auto-scaling |
+| [Day44.ipynb](Day44.ipynb) | **AIOps: Log Anomaly Detection** — Unsupervised learning, Isolation Forests (`contamination`), finding weird deployments without hardcoded regex, plotting anomalies in 2D space |
+| [Day45.ipynb](Day45.ipynb) | **LLMOps: The OpenAI API & Prompts** — Shifting from MLOps to LLMOps, OpenAI python client, System vs User prompts, Zero-shot vs Few-shot, enforcing JSON output (`response_format`) |
+| [Day46.ipynb](Day46.ipynb) | **LLMOps: The LangChain Framework** — `PromptTemplate`, LCEL pipe operator (`|`), Chatbot Memory (`ConversationBufferMemory`), Agents (giving LLMs access to Python functions/tools) |
+| [Day47.ipynb](Day47.ipynb) | **LLMOps: RAG & Vector Databases** — Retrieval-Augmented Generation, overcoming LLM hallucinations, `DirectoryLoader`, Text Splitting, Embeddings, ChromaDB, Semantic Search vs SQL |
+| [Day48.ipynb](Day48.ipynb) | **LLMOps: Open Source Models & HuggingFace** — Privacy and vendor lock-in, downloading local models, `transformers` pipeline, integrating HuggingFace models seamlessly into LangChain |
+| [Day49.ipynb](Day49.ipynb) | **LLMOps: Evaluation & Tracing** — Why standard metrics fail for LLMs, Tracing with LangSmith, LLM-as-a-Judge for automated grading, MLflow LLM autologging |
+| [Day50.ipynb](Day50.ipynb) | **The Ultimate Capstone Project** — The Autonomous AI SRE combining DevOps, MLOps, AIOps, and LLMOps into a single FastAPI/Docker application |
 
 ---
 
@@ -71,6 +95,30 @@ Each notebook has a dedicated practice section at the bottom with exercises that
 - **Day 24** — Pandas Part 1: Server health report (filter, sort, describe), ML experiment tracker (DataFrame from dicts, filter, sort), Azure cost analysis (column operations, CSV read/write)
 - **Day 25** — Pandas Part 2: Infrastructure cost report (groupby team/env, agg), MLOps experiment comparison (merge, groupby model), log analysis pipeline (value_counts, groupby service × level)
 - **Day 26** — Matplotlib: Server monitoring dashboard (2×2 subplots: CPU/memory line, bar, histogram), ML training progress (loss/accuracy curves), deployment analytics report (grouped bars, success rate line, pie chart)
+- **Day 27** — Scikit-learn Part 1: Server response time predictor (Linear Regression), cost estimator with feature scaling, server health classification baseline
+- **Day 28** — Scikit-learn Part 2: Server health classifier (Random Forest, Logistic Regression), API latency classifier, full pipeline with cross-validation
+- **Day 29** — XGBoost & Optuna: Server health prediction with XGBoost, hyperparameter tuning with GridSearchCV and Optuna, DevOps metric anomaly detector
+- **Day 30** — Joblib: Model artifact manager (save/load with metadata), model versioning (compare v1/v2/v3), deployment-ready model package (model + metadata + requirements)
+- **Day 31** — PyYAML: Kubernetes manifest generator, CI/CD pipeline config builder, ML experiment config loader for training scripts
+- **Day 32** — MLflow: Automated training pipeline with experiment logging, model promotion script (registry stages), experiment dashboard and comparison reports
+- **Day 33** — DVC: Data versioning manager (hash-based tracking), CI/CD pipeline config generator (dvc.yaml), reproducibility checker for ML pipelines
+- **Day 34** — FastAPI: Server health prediction API (single + batch), A/B testing endpoint for model versions, Dockerized API with K8s health probes
+- **Day 35** — Pytest: K8s config validator tests, ML pipeline CI/CD gate tests (accuracy threshold, latency, model size), API integration tests with mocking
+- **Day 36** — Pydantic: Kubernetes Deployment YAML validator, MLOps Hyperparameter Config Validator
+- **Day 37** — Asyncio: Async Health Checker (pinging multiple server `/healthz` endpoints concurrently with `httpx`)
+- **Day 38** — Logging: MLOps Standard Logger (configuring JSON output with custom fields like `environment` for Kubernetes/Datadog scraping)
+- **Day 39** — Typer: MLOps Toolkit CLI (commands for `train`, `deploy`, `status` with interactive confirmation prompts)
+- **Day 40** — Docker: The Ultimate ML Dockerfile (slim image, optimized caching, multi-stage, non-root user, gunicorn entrypoint)
+- **Day 41** — Cloud SDKs: The ML Environment Provisioner (Scripting Azure SDK to start/stop expensive GPU instances via CLI)
+- **Day 42** — Orchestration: The MLOps DAG (Prefect pipeline for checking data drift, retraining, and pushing to MLflow)
+- **Day 43** — AIOps (Forecasting): The Predictive Auto-Scaler (Prophet model predicting tomorrow's CPU spikes for proactive scaling)
+- **Day 44** — AIOps (Anomalies): The Alerting Pipeline (Isolation Forest detecting latency anomalies in live JSON logs)
+- **Day 45** — LLMOps (Prompting): The Automated Incident Responder (OpenAI analyzing Java stack traces and outputting JSON mitigation steps)
+- **Day 46** — LLMOps (LangChain): The Azure Cloud Agent (LangChain Agent autonomously running Azure SDK tools to restart VMs via natural language)
+- **Day 47** — LLMOps (RAG): The SRE Runbook Assistant (Loading markdown runbooks into ChromaDB for instant Q&A context)
+- **Day 48** — LLMOps (HuggingFace): The Secure Log Analyzer (Running Mistral locally for sensitive PII log classification)
+- **Day 49** — LLMOps (Eval): The CI/CD Prompt Gate (GitHub Actions script using LLM-as-a-Judge to test prompt changes before deployment)
+- **Day 50** — Capstone: The Autonomous AI SRE (FastAPI + Docker + AIOps Trigger + LangChain RAG + MLflow Tracking)
 
 ---
 

@@ -1,0 +1,13 @@
+run_id,model,n_estimators,max_depth,accuracy,f1_score,latency_ms,cost_usd
+run-01,LogisticRegression,0,0,0.81,0.79,2.1,0.05
+run-02,RandomForest,100,6,0.87,0.86,8.4,0.18
+run-03,RandomForest,200,10,0.89,0.88,14.2,0.35
+run-04,XGBoost,100,4,0.9,0.89,6.5,0.22
+run-05,XGBoost,200,6,0.92,0.91,9.8,0.4
+run-06,XGBoost,300,8,0.93,0.92,13.5,0.65
+run-07,PyTorchMLP,0,0,0.88,0.87,11.0,1.2
+run-08,PyTorchMLP,0,0,0.91,0.9,15.2,1.85
+run-09,RandomForest,150,8,0.88,0.87,10.1,0.28
+run-10,XGBoost,250,6,0.925,0.918,11.4,0.52
+run-11,LogisticRegression,0,0,0.82,0.8,2.3,0.05
+run-12,XGBoost,300,10,0.935,0.928,14.8,0.72

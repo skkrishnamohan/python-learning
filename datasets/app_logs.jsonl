@@ -1,0 +1,150 @@
+{"timestamp": "2026-01-01T00:00:00Z", "service": "billing-worker", "level": "INFO", "pod": "billing-worker-334", "latency_ms": 32.5, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T00:05:00Z", "service": "ml-serving", "level": "INFO", "pod": "ml-serving-234", "latency_ms": 55.7, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T00:10:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-779", "latency_ms": 41.6, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T00:15:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-991", "latency_ms": 56.9, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T00:20:00Z", "service": "ingress-proxy", "level": "WARNING", "pod": "ingress-proxy-238", "latency_ms": 926.5, "status_code": 429, "message": "Retry attempt 1"}
+{"timestamp": "2026-01-01T00:25:00Z", "service": "ml-serving", "level": "WARNING", "pod": "ml-serving-705", "latency_ms": 640.1, "status_code": 429, "message": "Retry attempt 1"}
+{"timestamp": "2026-01-01T00:30:00Z", "service": "ingress-proxy", "level": "ERROR", "pod": "ingress-proxy-636", "latency_ms": 672.6, "status_code": 500, "message": "Model inference failed"}
+{"timestamp": "2026-01-01T00:35:00Z", "service": "billing-worker", "level": "INFO", "pod": "billing-worker-593", "latency_ms": 56.8, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T00:40:00Z", "service": "billing-worker", "level": "INFO", "pod": "billing-worker-474", "latency_ms": 46.2, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T00:45:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-100", "latency_ms": 55.4, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T00:50:00Z", "service": "billing-worker", "level": "INFO", "pod": "billing-worker-580", "latency_ms": 56.4, "status_code": 200, "message": "Cache hit"}
+{"timestamp": "2026-01-01T00:55:00Z", "service": "billing-worker", "level": "INFO", "pod": "billing-worker-109", "latency_ms": 75.6, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T01:00:00Z", "service": "ml-serving", "level": "WARNING", "pod": "ml-serving-915", "latency_ms": 185.6, "status_code": 429, "message": "Slow DB query detected"}
+{"timestamp": "2026-01-01T01:05:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-674", "latency_ms": 48.3, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T01:10:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-948", "latency_ms": 43.4, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T01:15:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-740", "latency_ms": 31.9, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T01:20:00Z", "service": "billing-worker", "level": "INFO", "pod": "billing-worker-522", "latency_ms": 27.6, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T01:25:00Z", "service": "ml-serving", "level": "INFO", "pod": "ml-serving-396", "latency_ms": 21.2, "status_code": 200, "message": "Cache hit"}
+{"timestamp": "2026-01-01T01:30:00Z", "service": "ingress-proxy", "level": "WARNING", "pod": "ingress-proxy-378", "latency_ms": 719.4, "status_code": 429, "message": "Slow DB query detected"}
+{"timestamp": "2026-01-01T01:35:00Z", "service": "billing-worker", "level": "INFO", "pod": "billing-worker-119", "latency_ms": 24.6, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T01:40:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-388", "latency_ms": 34.3, "status_code": 200, "message": "Cache hit"}
+{"timestamp": "2026-01-01T01:45:00Z", "service": "auth-api", "level": "ERROR", "pod": "auth-api-338", "latency_ms": 249.5, "status_code": 500, "message": "OOMKilled container restarted"}
+{"timestamp": "2026-01-01T01:50:00Z", "service": "ml-serving", "level": "INFO", "pod": "ml-serving-450", "latency_ms": 46.9, "status_code": 200, "message": "Cache hit"}
+{"timestamp": "2026-01-01T01:55:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-813", "latency_ms": 77.7, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T02:00:00Z", "service": "ml-serving", "level": "INFO", "pod": "ml-serving-157", "latency_ms": 34.1, "status_code": 200, "message": "Cache hit"}
+{"timestamp": "2026-01-01T02:05:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-285", "latency_ms": 28.0, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T02:10:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-224", "latency_ms": 92.9, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T02:15:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-353", "latency_ms": 73.2, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T02:20:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-852", "latency_ms": 76.0, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T02:25:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-797", "latency_ms": 91.8, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T02:30:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-862", "latency_ms": 89.8, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T02:35:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-753", "latency_ms": 36.8, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T02:40:00Z", "service": "ml-serving", "level": "INFO", "pod": "ml-serving-215", "latency_ms": 31.6, "status_code": 200, "message": "Cache hit"}
+{"timestamp": "2026-01-01T02:45:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-271", "latency_ms": 77.9, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T02:50:00Z", "service": "ml-serving", "level": "INFO", "pod": "ml-serving-109", "latency_ms": 92.4, "status_code": 200, "message": "Cache hit"}
+{"timestamp": "2026-01-01T02:55:00Z", "service": "ml-serving", "level": "ERROR", "pod": "ml-serving-480", "latency_ms": 773.5, "status_code": 500, "message": "OOMKilled container restarted"}
+{"timestamp": "2026-01-01T03:00:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-193", "latency_ms": 68.9, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T03:05:00Z", "service": "auth-api", "level": "ERROR", "pod": "auth-api-161", "latency_ms": 453.7, "status_code": 500, "message": "OOMKilled container restarted"}
+{"timestamp": "2026-01-01T03:10:00Z", "service": "auth-api", "level": "ERROR", "pod": "auth-api-228", "latency_ms": 555.6, "status_code": 500, "message": "Connection timeout to Redis"}
+{"timestamp": "2026-01-01T03:15:00Z", "service": "billing-worker", "level": "WARNING", "pod": "billing-worker-924", "latency_ms": 866.7, "status_code": 429, "message": "Retry attempt 1"}
+{"timestamp": "2026-01-01T03:20:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-805", "latency_ms": 43.4, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T03:25:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-596", "latency_ms": 70.6, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T03:30:00Z", "service": "ingress-proxy", "level": "WARNING", "pod": "ingress-proxy-294", "latency_ms": 616.4, "status_code": 429, "message": "Retry attempt 1"}
+{"timestamp": "2026-01-01T03:35:00Z", "service": "billing-worker", "level": "INFO", "pod": "billing-worker-849", "latency_ms": 50.9, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T03:40:00Z", "service": "ml-serving", "level": "INFO", "pod": "ml-serving-560", "latency_ms": 36.5, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T03:45:00Z", "service": "billing-worker", "level": "WARNING", "pod": "billing-worker-564", "latency_ms": 180.6, "status_code": 429, "message": "Retry attempt 1"}
+{"timestamp": "2026-01-01T03:50:00Z", "service": "ingress-proxy", "level": "WARNING", "pod": "ingress-proxy-851", "latency_ms": 322.9, "status_code": 429, "message": "High memory pressure"}
+{"timestamp": "2026-01-01T03:55:00Z", "service": "billing-worker", "level": "WARNING", "pod": "billing-worker-894", "latency_ms": 657.6, "status_code": 429, "message": "Slow DB query detected"}
+{"timestamp": "2026-01-01T04:00:00Z", "service": "auth-api", "level": "ERROR", "pod": "auth-api-774", "latency_ms": 924.7, "status_code": 500, "message": "Connection timeout to Redis"}
+{"timestamp": "2026-01-01T04:05:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-884", "latency_ms": 57.8, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T04:10:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-756", "latency_ms": 38.7, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T04:15:00Z", "service": "auth-api", "level": "WARNING", "pod": "auth-api-144", "latency_ms": 823.1, "status_code": 429, "message": "High memory pressure"}
+{"timestamp": "2026-01-01T04:20:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-306", "latency_ms": 20.9, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T04:25:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-684", "latency_ms": 65.3, "status_code": 200, "message": "Cache hit"}
+{"timestamp": "2026-01-01T04:30:00Z", "service": "ingress-proxy", "level": "ERROR", "pod": "ingress-proxy-638", "latency_ms": 660.5, "status_code": 500, "message": "Model inference failed"}
+{"timestamp": "2026-01-01T04:35:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-475", "latency_ms": 30.3, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T04:40:00Z", "service": "ml-serving", "level": "INFO", "pod": "ml-serving-771", "latency_ms": 52.8, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T04:45:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-469", "latency_ms": 58.3, "status_code": 200, "message": "Cache hit"}
+{"timestamp": "2026-01-01T04:50:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-943", "latency_ms": 63.2, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T04:55:00Z", "service": "auth-api", "level": "ERROR", "pod": "auth-api-954", "latency_ms": 414.0, "status_code": 500, "message": "OOMKilled container restarted"}
+{"timestamp": "2026-01-01T05:00:00Z", "service": "auth-api", "level": "WARNING", "pod": "auth-api-203", "latency_ms": 738.4, "status_code": 429, "message": "Retry attempt 1"}
+{"timestamp": "2026-01-01T05:05:00Z", "service": "ml-serving", "level": "INFO", "pod": "ml-serving-297", "latency_ms": 55.7, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T05:10:00Z", "service": "ml-serving", "level": "WARNING", "pod": "ml-serving-671", "latency_ms": 756.9, "status_code": 429, "message": "Slow DB query detected"}
+{"timestamp": "2026-01-01T05:15:00Z", "service": "auth-api", "level": "ERROR", "pod": "auth-api-884", "latency_ms": 671.7, "status_code": 500, "message": "Connection timeout to Redis"}
+{"timestamp": "2026-01-01T05:20:00Z", "service": "ingress-proxy", "level": "ERROR", "pod": "ingress-proxy-819", "latency_ms": 692.2, "status_code": 500, "message": "OOMKilled container restarted"}
+{"timestamp": "2026-01-01T05:25:00Z", "service": "ml-serving", "level": "INFO", "pod": "ml-serving-663", "latency_ms": 45.3, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T05:30:00Z", "service": "ml-serving", "level": "ERROR", "pod": "ml-serving-646", "latency_ms": 948.8, "status_code": 500, "message": "Connection timeout to Redis"}
+{"timestamp": "2026-01-01T05:35:00Z", "service": "billing-worker", "level": "INFO", "pod": "billing-worker-663", "latency_ms": 94.3, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T05:40:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-882", "latency_ms": 64.6, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T05:45:00Z", "service": "ml-serving", "level": "WARNING", "pod": "ml-serving-676", "latency_ms": 600.1, "status_code": 429, "message": "Slow DB query detected"}
+{"timestamp": "2026-01-01T05:50:00Z", "service": "billing-worker", "level": "WARNING", "pod": "billing-worker-468", "latency_ms": 920.5, "status_code": 429, "message": "Slow DB query detected"}
+{"timestamp": "2026-01-01T05:55:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-843", "latency_ms": 14.9, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T06:00:00Z", "service": "auth-api", "level": "WARNING", "pod": "auth-api-630", "latency_ms": 284.0, "status_code": 429, "message": "Slow DB query detected"}
+{"timestamp": "2026-01-01T06:05:00Z", "service": "billing-worker", "level": "INFO", "pod": "billing-worker-327", "latency_ms": 29.8, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T06:10:00Z", "service": "billing-worker", "level": "INFO", "pod": "billing-worker-666", "latency_ms": 54.4, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T06:15:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-571", "latency_ms": 41.5, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T06:20:00Z", "service": "billing-worker", "level": "INFO", "pod": "billing-worker-696", "latency_ms": 32.7, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T06:25:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-684", "latency_ms": 45.2, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T06:30:00Z", "service": "auth-api", "level": "ERROR", "pod": "auth-api-840", "latency_ms": 430.0, "status_code": 500, "message": "Connection timeout to Redis"}
+{"timestamp": "2026-01-01T06:35:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-945", "latency_ms": 86.6, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T06:40:00Z", "service": "billing-worker", "level": "WARNING", "pod": "billing-worker-138", "latency_ms": 742.7, "status_code": 429, "message": "Retry attempt 1"}
+{"timestamp": "2026-01-01T06:45:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-898", "latency_ms": 16.6, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T06:50:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-526", "latency_ms": 89.2, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T06:55:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-749", "latency_ms": 76.5, "status_code": 200, "message": "Cache hit"}
+{"timestamp": "2026-01-01T07:00:00Z", "service": "billing-worker", "level": "INFO", "pod": "billing-worker-636", "latency_ms": 15.4, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T07:05:00Z", "service": "ml-serving", "level": "INFO", "pod": "ml-serving-256", "latency_ms": 16.2, "status_code": 200, "message": "Cache hit"}
+{"timestamp": "2026-01-01T07:10:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-327", "latency_ms": 47.9, "status_code": 200, "message": "Cache hit"}
+{"timestamp": "2026-01-01T07:15:00Z", "service": "ml-serving", "level": "INFO", "pod": "ml-serving-444", "latency_ms": 18.9, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T07:20:00Z", "service": "ingress-proxy", "level": "WARNING", "pod": "ingress-proxy-368", "latency_ms": 245.5, "status_code": 429, "message": "Retry attempt 1"}
+{"timestamp": "2026-01-01T07:25:00Z", "service": "ml-serving", "level": "INFO", "pod": "ml-serving-880", "latency_ms": 23.2, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T07:30:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-767", "latency_ms": 59.4, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T07:35:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-372", "latency_ms": 76.5, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T07:40:00Z", "service": "auth-api", "level": "ERROR", "pod": "auth-api-215", "latency_ms": 697.2, "status_code": 500, "message": "Connection timeout to Redis"}
+{"timestamp": "2026-01-01T07:45:00Z", "service": "billing-worker", "level": "INFO", "pod": "billing-worker-295", "latency_ms": 38.6, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T07:50:00Z", "service": "ml-serving", "level": "INFO", "pod": "ml-serving-458", "latency_ms": 63.1, "status_code": 200, "message": "Cache hit"}
+{"timestamp": "2026-01-01T07:55:00Z", "service": "ml-serving", "level": "WARNING", "pod": "ml-serving-551", "latency_ms": 214.6, "status_code": 429, "message": "High memory pressure"}
+{"timestamp": "2026-01-01T08:00:00Z", "service": "billing-worker", "level": "INFO", "pod": "billing-worker-259", "latency_ms": 74.9, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T08:05:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-348", "latency_ms": 90.8, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T08:10:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-451", "latency_ms": 69.6, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T08:15:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-582", "latency_ms": 13.9, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T08:20:00Z", "service": "ml-serving", "level": "ERROR", "pod": "ml-serving-308", "latency_ms": 600.7, "status_code": 500, "message": "Connection timeout to Redis"}
+{"timestamp": "2026-01-01T08:25:00Z", "service": "ingress-proxy", "level": "WARNING", "pod": "ingress-proxy-737", "latency_ms": 742.0, "status_code": 429, "message": "High memory pressure"}
+{"timestamp": "2026-01-01T08:30:00Z", "service": "auth-api", "level": "ERROR", "pod": "auth-api-485", "latency_ms": 628.9, "status_code": 500, "message": "Model inference failed"}
+{"timestamp": "2026-01-01T08:35:00Z", "service": "auth-api", "level": "WARNING", "pod": "auth-api-361", "latency_ms": 311.1, "status_code": 429, "message": "Slow DB query detected"}
+{"timestamp": "2026-01-01T08:40:00Z", "service": "billing-worker", "level": "INFO", "pod": "billing-worker-154", "latency_ms": 50.6, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T08:45:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-776", "latency_ms": 34.5, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T08:50:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-399", "latency_ms": 84.0, "status_code": 200, "message": "Cache hit"}
+{"timestamp": "2026-01-01T08:55:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-620", "latency_ms": 93.1, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T09:00:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-987", "latency_ms": 61.6, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T09:05:00Z", "service": "ml-serving", "level": "INFO", "pod": "ml-serving-612", "latency_ms": 92.2, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T09:10:00Z", "service": "ml-serving", "level": "INFO", "pod": "ml-serving-642", "latency_ms": 37.3, "status_code": 200, "message": "Cache hit"}
+{"timestamp": "2026-01-01T09:15:00Z", "service": "ml-serving", "level": "INFO", "pod": "ml-serving-118", "latency_ms": 40.8, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T09:20:00Z", "service": "billing-worker", "level": "INFO", "pod": "billing-worker-341", "latency_ms": 94.7, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T09:25:00Z", "service": "billing-worker", "level": "INFO", "pod": "billing-worker-999", "latency_ms": 44.1, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T09:30:00Z", "service": "billing-worker", "level": "WARNING", "pod": "billing-worker-330", "latency_ms": 296.8, "status_code": 429, "message": "Slow DB query detected"}
+{"timestamp": "2026-01-01T09:35:00Z", "service": "ml-serving", "level": "ERROR", "pod": "ml-serving-189", "latency_ms": 742.0, "status_code": 500, "message": "Model inference failed"}
+{"timestamp": "2026-01-01T09:40:00Z", "service": "ml-serving", "level": "ERROR", "pod": "ml-serving-527", "latency_ms": 365.1, "status_code": 500, "message": "OOMKilled container restarted"}
+{"timestamp": "2026-01-01T09:45:00Z", "service": "billing-worker", "level": "INFO", "pod": "billing-worker-719", "latency_ms": 39.3, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T09:50:00Z", "service": "ml-serving", "level": "INFO", "pod": "ml-serving-694", "latency_ms": 56.9, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T09:55:00Z", "service": "billing-worker", "level": "INFO", "pod": "billing-worker-805", "latency_ms": 70.5, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T10:00:00Z", "service": "ml-serving", "level": "INFO", "pod": "ml-serving-771", "latency_ms": 89.4, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T10:05:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-670", "latency_ms": 56.2, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T10:10:00Z", "service": "billing-worker", "level": "INFO", "pod": "billing-worker-959", "latency_ms": 85.0, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T10:15:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-521", "latency_ms": 37.2, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T10:20:00Z", "service": "ml-serving", "level": "INFO", "pod": "ml-serving-209", "latency_ms": 22.9, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T10:25:00Z", "service": "billing-worker", "level": "WARNING", "pod": "billing-worker-720", "latency_ms": 616.6, "status_code": 429, "message": "High memory pressure"}
+{"timestamp": "2026-01-01T10:30:00Z", "service": "ml-serving", "level": "WARNING", "pod": "ml-serving-336", "latency_ms": 709.3, "status_code": 429, "message": "Slow DB query detected"}
+{"timestamp": "2026-01-01T10:35:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-237", "latency_ms": 53.7, "status_code": 200, "message": "Cache hit"}
+{"timestamp": "2026-01-01T10:40:00Z", "service": "billing-worker", "level": "ERROR", "pod": "billing-worker-288", "latency_ms": 836.1, "status_code": 500, "message": "Connection timeout to Redis"}
+{"timestamp": "2026-01-01T10:45:00Z", "service": "ml-serving", "level": "INFO", "pod": "ml-serving-267", "latency_ms": 28.0, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T10:50:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-376", "latency_ms": 90.9, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T10:55:00Z", "service": "ml-serving", "level": "ERROR", "pod": "ml-serving-875", "latency_ms": 337.5, "status_code": 500, "message": "OOMKilled container restarted"}
+{"timestamp": "2026-01-01T11:00:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-804", "latency_ms": 39.0, "status_code": 200, "message": "Cache hit"}
+{"timestamp": "2026-01-01T11:05:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-514", "latency_ms": 76.4, "status_code": 200, "message": "Cache hit"}
+{"timestamp": "2026-01-01T11:10:00Z", "service": "billing-worker", "level": "ERROR", "pod": "billing-worker-503", "latency_ms": 650.9, "status_code": 500, "message": "Model inference failed"}
+{"timestamp": "2026-01-01T11:15:00Z", "service": "auth-api", "level": "WARNING", "pod": "auth-api-633", "latency_ms": 264.2, "status_code": 429, "message": "Slow DB query detected"}
+{"timestamp": "2026-01-01T11:20:00Z", "service": "ml-serving", "level": "INFO", "pod": "ml-serving-631", "latency_ms": 56.6, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T11:25:00Z", "service": "ingress-proxy", "level": "WARNING", "pod": "ingress-proxy-628", "latency_ms": 769.2, "status_code": 429, "message": "High memory pressure"}
+{"timestamp": "2026-01-01T11:30:00Z", "service": "billing-worker", "level": "INFO", "pod": "billing-worker-550", "latency_ms": 45.0, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T11:35:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-270", "latency_ms": 47.1, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T11:40:00Z", "service": "ml-serving", "level": "ERROR", "pod": "ml-serving-574", "latency_ms": 819.0, "status_code": 500, "message": "Connection timeout to Redis"}
+{"timestamp": "2026-01-01T11:45:00Z", "service": "auth-api", "level": "INFO", "pod": "auth-api-284", "latency_ms": 76.6, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T11:50:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-431", "latency_ms": 49.4, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T11:55:00Z", "service": "ml-serving", "level": "INFO", "pod": "ml-serving-565", "latency_ms": 19.5, "status_code": 200, "message": "Health check passed"}
+{"timestamp": "2026-01-01T12:00:00Z", "service": "ml-serving", "level": "ERROR", "pod": "ml-serving-835", "latency_ms": 744.6, "status_code": 500, "message": "OOMKilled container restarted"}
+{"timestamp": "2026-01-01T12:05:00Z", "service": "ingress-proxy", "level": "INFO", "pod": "ingress-proxy-749", "latency_ms": 42.1, "status_code": 200, "message": "Cache hit"}
+{"timestamp": "2026-01-01T12:10:00Z", "service": "ml-serving", "level": "ERROR", "pod": "ml-serving-487", "latency_ms": 603.8, "status_code": 500, "message": "OOMKilled container restarted"}
+{"timestamp": "2026-01-01T12:15:00Z", "service": "billing-worker", "level": "INFO", "pod": "billing-worker-679", "latency_ms": 84.3, "status_code": 200, "message": "Model prediction served"}
+{"timestamp": "2026-01-01T12:20:00Z", "service": "ml-serving", "level": "INFO", "pod": "ml-serving-283", "latency_ms": 75.8, "status_code": 200, "message": "Request completed"}
+{"timestamp": "2026-01-01T12:25:00Z", "service": "billing-worker", "level": "INFO", "pod": "billing-worker-416", "latency_ms": 72.6, "status_code": 200, "message": "Cache hit"}

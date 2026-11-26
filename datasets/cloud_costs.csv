@@ -1,0 +1,9 @@
+date,team,env,service,cost_usd,usage_hours
+2026-01-01,ml-ops,prod,Azure GPU VM,420.5,24.0
+2026-01-01,platform,prod,AKS Cluster,310.0,24.0
+2026-01-02,ml-ops,staging,Azure ML,,12.0
+2026-01-02,backend,prod,PostgreSQL,185.25,24.0
+2026-01-03,data-eng,prod,Blob Storage,95.4,
+2026-01-03,platform,dev,AKS Cluster,-12.0,8.0
+2026-01-01,ml-ops,prod,Azure GPU VM,420.5,24.0
+2026-01-04,ml-ops,prod,OpenAI API,275.8,24.0
